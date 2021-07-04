@@ -1,0 +1,349 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+
+@article{Rambhatla2013sbmca,
+abbr={Asilomar},
+title={Semi-blind source separation via sparse representations and online dictionary learning},
+author={S. Rambhatla and J. Haupt},
+journal={Asilomar Conference on Signals, Systems and Computers},
+pages={1687--1691},
+year={2013},
+organization={IEEE},
+arxiv={1212.0451},
+pdf={https://arxiv.org/pdf/1212.0451.pdf},
+img={SBMCA.png},
+blog={2016/SBMCA/},
+slides={PresentationThesisPDF.pdf},
+abstract={This work examines a semi-blind single-channel source separation problem. Our specific aim is to separate one source whose local structure is approximately known, from another a priori unspecified background source, given only a single linear combination of the two sources. We propose a separation technique based on local sparse approximations along the lines of recent efforts in sparse representations and dictionary learning. A key feature of our procedure is the online learning of dictionaries (using only the data itself) to sparsely model the background source, which facilitates its separation from the partially-known source. Our approach is applicable to source separation problems in various application domains; here, we demonstrate the performance of our proposed approach via simulation on a stylized audio source separation task.}
+}
+
+@article{Rambhatla2012mthesis,
+abbr={Masters Thesis},
+author={S. Rambhatla},
+  title={Semi-blind source separation via sparse representations and online dictionary learning},
+ journal={{M}asters {T}hesis},
+  author={S. Rambhatla},
+  year={2012},
+  abstract={This work examines a semi-blind source separation problem having applications in audio, image, and video processing. The essential aim is to separate one source whose local structure is partially or approximately known from another a priori unspecified but structured source, given only a single linear combination of the two sources. We propose a novel separation technique based on local sparse approximations. A key feature of our procedure is the online learning of dictionaries (using only the data itself) to sparsely model the unknown structured background source. The performance of the proposed approach is demonstrated via simulation in a stylized application of audio source separation.},
+  img={SBMCA_thesis.png},
+  blog={2016/SBMCA/},
+  pdf={Sirisha_Rambhatla_Masters_Thesis.pdf},
+    journal={{U}niversity of {M}innesota -- {T}win {C}ities, {M}inneapolis, {MN}},
+  organization={{U}niversity of {M}innesota -- {T}win {C}ities, {M}inneapolis, {MN}},
+}
+
+@article{Rambhatla2016DRPCA,
+abbr={GlobalSIP},
+  title={A Dictionary Based Generalization of Robust {PCA}},
+  author={S. Rambhatla and X. Li and J. Haupt},
+  journal={IEEE Global Conference on Signal and Information Processing (GlobalSIP)},
+  year={2016},
+  slides={/slides/Dictionary_based_generalization_of_robust_PCA_Sirisha_R.pdf},
+  organization={IEEE},
+  arxiv={1902.08171},
+  img={DRPCA.png},
+  code={https://github.com/srambhatla/Dictionary-based-Robust-PCA},
+  pdf= {https://arxiv.org/pdf/1902.08171.pdf},
+  url       = {https://arxiv.org/abs/1902.08171},
+  award={NSF Travel Award},
+   blog={2017/HyperSpectral/},
+}
+
+@article{Rambhatla17DRPCAApp,
+abbr={Asilomar},
+  author    = {S. Rambhatla and X. Li and J. Haupt},
+  title     = {Target-based hyperspectral demixing via generalized robust {PCA}},
+  journal = {51st Asilomar Conference on Signals, Systems, and Computers,
+  2017},
+  img={LplusDA_hyper_spectral.gif},
+  pages     = {420--424},
+  year      = {2017},
+  crossref  = {DBLP:conf/acssc/2017},
+  doi       = {10.1109/ACSSC.2017.8335372},
+  timestamp = {Fri, 20 Apr 2018 22:49:39 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/acssc/RambhatlaLH17},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  arxiv ={1902.11111},
+   code={https://github.com/srambhatla/Dictionary-based-Robust-PCA},
+  pdf= {https://arxiv.org/pdf/1902.11111.pdf},
+  url       = {https://arxiv.org/abs/1902.11111},
+ award={Best Paper Finalist},
+ blog={2017/HyperSpectral/},
+}
+
+@article{Li2018icassp,
+abbr={ICASSP},
+  title={Robust PCA via Dictionary Based Outlier Pursuit},
+  author={X. Li and J. Ren and S. Rambhatla and Y. Xu and J. Haupt},
+  journal={2018 IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP)},
+  year={2018},
+   code={https://github.com/srambhatla/Dictionary-based-Robust-PCA},
+   pdf={Robust_PCA_via_Dictionary_Based_Outlier_Pursuit.pdf},
+   img={DRPCA.png},
+   abstract={In this paper, we examine the problem of locating vector out- liers from a large number of inliers, with a particular focus on the case where the outliers are represented in a known basis or dictionary. Using a convex demixing formulation, we provide provable guarantees for exact recovery of the space spanned by the inliers and the supports of the outlier columns, even when the rank of inliers is high and the number of outliers is a constant proportion of total observations. Comprehensive numerical experiments on both synthetic and hyper-spectral imaging real datasets demonstrate the efficiency of our pro- posed method.},
+  organization={IEEE}
+}
+
+@article{Rambhatla18TensorMap,
+abbr={GlobalSIP},
+  author    = {S. Rambhatla and N. Sidiropoulos and J. Haupt},
+  title     = {TensorMap: Lidar-based Topological Mapping and Localization via Tensor Decompositions},
+  journal={IEEE Global Conference on Signal and Information Processing (GlobalSIP)},
+  year={2018},
+  organization={IEEE},
+  arxiv= {1902.10226},
+  img={TensorMap.png},
+  code={https://github.com/srambhatla/TensorMap},
+  url= {https://arxiv.org/abs/1902.10226},
+  pdf= {https://arxiv.org/pdf/1902.10226.pdf},
+  abstract={We propose a technique to develop (and localize in) topological maps from light detection and ranging (Lidar) data. Localizing an autonomous vehicle with respect to a reference map in real-time is crucial for its safe operation. Owing to the rich information provided by Lidar sensors, these are emerging as a promising choice for this task. However, since a Lidar outputs a large amount of data every fraction of a second, it is progressively harder to process the information in real-time. Consequently, current systems have migrated towards faster alternatives at the expense of accuracy. To overcome this inherent trade-off between latency and accuracy, we propose a technique to develop topological maps from Lidar data using the orthogonal Tucker3 tensor decomposition. Our experimental evaluations demonstrate that in addition to achieving a high compression ratio as compared to full data, the proposed technique, TensorMap, also accurately detects the position of the vehicle in a graph-based representation of a map. We also analyze the robustness of the proposed technique to Gaussian and translational noise, thus initiating explorations into potential applications of tensor decompositions in Lidar data analysis. }
+  }
+
+@article{Rambhatla2019,  
+abbr={ICLR},  
+title={{NOODL}: Provable Online Dictionary Learning and Sparse Coding},    
+author={S. Rambhatla and X. Li and J. Haupt},    
+journal={International Conference on Learning Representations (ICLR)},    
+year={2019},    
+url={https://openreview.net/forum?id=HJeu43ActQ}, 
+selected={true},
+arxiv={1902.11261},
+slides={/posters/NOODL_poster_ICLR.pdf},
+pdf={https://openreview.net/pdf?id=HJeu43ActQ},
+abstract={We consider the dictionary learning problem, where the aim is to model the givendata as a linear combination of a few columns of a matrix known as adictionary,where  the  sparse  weights  forming  the  linear  combination  are  known  ascoeffi-cients.  Since the dictionary and coefficients, parameterizing the linear model areunknown, the corresponding optimization is inherently non-convex.  This was amajor challenge until recently, when provable algorithms for dictionary learningwere proposed.   Yet,  these provide guarantees only on the recovery of the dic-tionary, without explicit recovery guarantees on the coefficients.  Moreover, anyestimation error in the dictionary adversely impacts the ability to successfully lo-calize and estimate the coefficients.  This potentially limits the utility of existingprovable dictionary learning methods in applications where coefficient recoveryis of interest. To this end, we develop NOODL: a simple Neurally plausible alter-nating Optimization-based Online Dictionary Learning algorithm, which recoversboththe dictionary and coefficientsexactlyat a geometric rate, when initializedappropriately.  Our algorithm, NOODL, is also scalable and amenable for largescale distributed implementations in neural architectures, by which we mean thatit only involves simple linear and non-linear operations.  Finally, we corroboratethese  theoretical  results  via  experimental  evaluation  of  the  proposed  algorithmwith the current state-of-the-art techniques.},
+code={https://github.com/srambhatla/NOODL},
+img={NOODL.png},
+award={Travel Award},
+}
+
+@article{Rambhatla2019thesis,
+abbr={Doctoral Thesis},
+author={S. Rambhatla},
+  title={Provably Learning from Data: New Algorithms and Models for Matrix and Tensor Decompositions},
+ journal={{D}octoral {T}hesis},
+  author={S. Rambhatla},
+  year={2019},
+   img={phd_thesis.png},
+   abstract={Learning and leveraging patterns in data has fueled the recent advances in data driven services. As these solutions become more ubiquitous, and get incorporated into critical applications in healthcare and transportation, there is an increasing need to understand the limits of these learning algorithms and to develop algorithms with guar- antees. Moreover, with data being generated at unprecedented rates, these algorithms need to be fast, learn on-the-fly (online), handle large volumes of data (scalable), and be computationally efficient, while possessing guarantees on their behavior. Further- more, to make the learning-based products widely applicable there is also a need to make their reasoning and decision making process transparent (interpretable).
+   These challenges inspire and motivate this dissertation. Specifically, we focus on analyzing various matrix/tensor demixing and factorization tasks, where we leverage the inherent interpretability endowed by the structure of problem (such as sparsity and low-rankness) to characterize the (theoretical) conditions for successful recovery, and analyze their performance in real-world settings.
+   To this end, we make contributions on three fronts. First, we develop algorithm- aware theoretical guarantees for sparse matrix and tensor factorization tasks. Second, we establish algorithm-agnostic theoretical results for matrix demixing models and demonstrate their applications on real-world datasets. Lastly, we develop application-specific techniques for navigation and source separation. Bringing together Algorithms, Theory, and Applications, the techniques and theoretical results developed as part of this dissertation facilitate and motivate future explorations into the inner workings of learning algorithms for their safe use in critical applications.},
+  pdf={PhD_thesis_Sirisha_Rambhatla.pdf},
+  journal={{U}niversity of {M}innesota -- {T}win {C}ities, {M}inneapolis, {MN}},
+}
+
+@article{Rambhatla19Tensor,
+abbr={NeurIPS},
+  title={Provable Online {CP/PARAFAC} Decomposition of a Structured Tensor via Dictionary Learning },
+  author={S. Rambhatla and X. Li and J. Haupt},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
+  slides={/posters/Poster_TensorNOODL.pdf},
+  img={TensorNOODL.png},
+  url={https://papers.nips.cc/paper/2020/hash/85b42dd8aae56e01379be5736db5b496-Abstract.html},
+  pdf={https://papers.nips.cc/paper/2020/file/85b42dd8aae56e01379be5736db5b496-Paper.pdf},
+  arxiv={2006.16442},
+  abstract={We consider the problem of factorizing a structured 3-way tensor into itsconstituent  Canonical  Polyadic  (CP)  factors.   This  decomposition,  whichcan be viewed as a generalization of singular value decomposition (SVD)for tensors, reveals how the tensor dimensions (features) interact with eachother.  However, since the factors area prioriunknown, the correspondingoptimization problems are inherently non-convex.  The existing guaranteedalgorithms which handle this non-convexity incur an irreducible error (bias),and only apply to cases where all factors have the same structure.  To thisend,  we develop a provable algorithm for online structured tensor factor-ization, wherein one of the factors obeys some incoherence conditions, andthe others are sparse.  Specifically we show that, under some relatively mildconditions on initialization, rank, and sparsity, our algorithm recovers thefactorsexactly(up to scaling and permutation) at a linear rate.  Comple-mentary to our theoretical results, our synthetic and real-world data eval-uations showcase superior performance compared to related techniques.},
+  code={https://github.com/srambhatla/TensorNOODL},
+  selected={true},
+  year={2020},
+}
+
+@article{tsang2020does,
+abbr={NeurIPS},
+    title={How does this interaction affect me? Interpretable attribution for feature interactions},
+    author={M. Tsang and S. Rambhatla and Y. Liu},
+    journal={Advances in Neural Information Processing Systems (NeurIPS)},
+    arxiv={2006.10965},
+    pdf={https://proceedings.neurips.cc/paper/2020/file/443dec3062d0286986e21dc0631734c9-Paper.pdf},
+    url={https://proceedings.neurips.cc/paper/2020/hash/443dec3062d0286986e21dc0631734c9-Abstract.html},
+    abstract={Machine learning transparency calls for interpretable explanations of how inputs relate to predictions. Feature attribution is a way to analyze the impact of features on predictions. Feature interactions are the contextual dependence between features that jointly impact predictions. There are a number of methods that extract feature interactions in prediction models; however, the methods that assign attributions to interactions are either uninterpretable, model-specific, or non-axiomatic. We propose an interaction attribution and detection framework called Archipelago which addresses these problems and is also scalable in real-world settings. Our experiments on standard annotation labels indicate our approach provides significantly more interpretable explanations than comparable methods, which is important for analyzing the impact of interactions on predictions. We also provide accompanying visualizations of our approach that give new insights into deep neural networks.},
+    code={https://github.com/mtsang/archipelago},
+    img={archipelago.png},
+    selected={true},
+    year={2020}
+  }
+
+    @article{Rambhatla2020highres,
+    abbr={Under Review},
+      title= {Towards Accurate Spatiotemporal COVID-19 Risk Scores using High Resolution Real-World Mobility Data.},
+      author={S. Rambhatla* and S. Zeighami* and K. Shahabi and C. Shahabi and Y. Liu. },
+      arxiv={2012.07283v1},
+      img={spread_sim.gif},
+      url={https://arxiv.org/abs/2012.07283v1},
+      pdf={https://arxiv.org/pdf/2012.07283v1.pdf},
+      abstract={As countries look towards re-opening of economic activities amidst the ongoing COVID-19 pandemic, ensuring public health has been challenging. While contact tracing only aims to track past activities of infected users, one path to safe reopening is to develop reliable spatiotemporal risk scores to indicate the propensity of the disease. Existing works which aim to develop risk scores either rely on compartmental model-based reproduction numbers (which assume uniform population mixing) or develop coarse-grain spatial scores based on reproduction number (R0) and macro-level density-based mobility statistics. Instead, in this paper, we develop a Hawkes process-based technique to assign relatively fine-grain spatial and temporal risk scores by leveraging high-resolution mobility data based on cell-phone originated location signals. While COVID-19 risk scores also depend on a number of factors specific to an individual, including demography and existing medical conditions, the primary mode of disease transmission is via physical proximity and contact. Therefore, we focus on developing risk scores based on location density and mobility behaviour. We demonstrate the efficacy of the developed risk scores via simulation based on real-world mobility data. Our results show that fine-grain spatiotemporal risk scores based on high-resolution mobility data can provide useful insights and facilitate safe re-opening. },
+      journal={(Journal Under Review)},
+      year={2020}
+    } 
+    
+    @article{seo2020physics,
+    abbr={NeurIPS Workshop}, 
+    title={Physics-aware Spatiotemporal Modules with Auxiliary Tasks for Meta-Learning},
+    author={S. Seo and C. Meng and S. Rambhatla and Y. Liu},
+    journal={Workshop on Machine Learning and the Physical Sciences, NeurIPS},
+    url={https://arxiv.org/abs/2006.08831},
+    pdf={https://arxiv.org/pdf/2006.08831.pdf},
+    arxiv={2006.08831},
+    abstract={Modeling the dynamics of real-world physical systems is critical for spatiotemporal prediction tasks, but challenging when data is limited. The scarcity of real-world data and the difficulty in reproducing the data distribution hinder directly applying meta-learning techniques. Although the knowledge of governing partial differential equations (PDEs) of the data can be helpful for the fast adaptation to few observations, it is difficult to generalize to different or unknown dynamics. In this paper, we propose a framework, physics-aware modular meta-learning with auxiliary tasks (PiMetaL) whose spatial modules incorporate PDE-independent knowledge and temporal modules are rapidly adaptable to the limited data, respectively. The framework does not require the exact form of governing equations to model the observed spatiotemporal data. Furthermore, it mitigates the need for a large number of real-world tasks for meta-learning by leveraging simulated data. We apply the proposed framework to both synthetic and real-world spatiotemporal prediction tasks and demonstrate its superior performance with limited observations. },
+     img={PiMetal_zoom.png},
+    year={2020}
+  }
+  
+
+
+    
+  @article{sharma2020coronavirus,
+      abbr={Under Review},
+    title={Coronavirus on social media: Analyzing misinformation in Twitter conversations},
+    author={K. Sharma and S. Seo and C. Meng and S. Rambhatla and Y. Liu},
+    url={https://arxiv.org/abs/2003.12309},
+    pdf={https://arxiv.org/pdf/2003.12309.pdf},
+    abstract={The ongoing Coronavirus (COVID-19) pandemic highlights the inter-connectedness of our present- day globalized world. With social distancing policies in place, virtual communication has become an important source of (mis)information. As increasing number of people rely on social media platforms for news, identifying misinformation and uncovering the nature of online discourse around COVID-19 has emerged as a critical task. To this end, we collected streaming data related to COVID-19 using the Twitter API, starting March 1, 2020. We identified unreliable and misleading contents based on fact-checking sources, and examined the narratives promoted in misinformation tweets, along with the distribution of engagements with these tweets. In addition, we provide examples of the spreading patterns of prominent misinformation tweets. The analysis is presented and updated on a publically accessible dashboard1 to track the nature of online discourse and misinformation about COVID-19 on Twitter from March 1 - June 5, 2020. The dashboard provides a daily list of identified misinformation tweets, along with topics, sentiments, and emerging trends in the COVID-19 Twitter discourse. The dashboard is provided to improve visibility into the nature and quality of information shared online, and provide real-time access to insights and information extracted from the dataset.},
+    arxiv={2003.12309},
+    img={spread_misinfo.gif},
+    journal={arXiv preprint arXiv:2003.12309},
+    year={2020}
+  }
+
+@ARTICLE{Rambhatla20LrTheoApp,
+abbr={TSP},
+  author={S. {Rambhatla} and X. {Li} and J. {Ren} and J. {Haupt}},
+  journal={IEEE Tran. on Signal Processing}, 
+  title={A Dictionary-Based Generalization of Robust PCA With Applications to Target Localization in Hyperspectral Imaging}, 
+  year={2020},
+  volume={68},
+   code={https://github.com/srambhatla/Dictionary-based-Robust-PCA},
+  number={},
+  pdf={https://arxiv.org/pdf/1902.08304v3.pdf},
+  arxiv={1902.08304v3},
+   img={LplusDA_hyper_spectral.gif},
+  url       = {https://arxiv.org/abs/1902.08304},
+  pages={1760-75},
+  abstract={ We consider the decomposition of a data matrix assumed to be a superposition of a low-rank matrix and a component which is sparse in a known dictionary, using a convex demixing method. We consider two sparsity structures for the sparse factor of the dictionary sparse component, namely entry-wise and column-wise sparsity, and provide a unified analysis, encompassing both undercomplete and the overcomplete dictionary cases, to show that the constituent matrices can be successfully recovered under some relatively mild conditions on incoherence, sparsity, and rank. We leverage these results to localize targets of interest in a hyperspectral (HS) image based on their spectral signature(s) using the a priori known characteristic spectral responses of the target. We corroborate our theoretical results and analyze target localization performance of our approach via experimental evaluations and comparisons to related techniques.},
+ selected={true},
+ blog={2017/HyperSpectral/},
+ 
+}
+
+    @article{Huang2021b,
+        abbr={AMIA},
+        award={Oral Presentation},
+      title= {DL4Burn: Burn surgical candidacy using multimodal deep learning.},
+      author={S. Huang* and S. Rambhatla* and L. Trinh and M. Zhang and M. Dong and V. Unadkat and H. A. Yenikomshian and J. Gillenwater and Y. Liu},
+      img={DL4Burn.png},
+      journal={American Medical Informatics Association (AMIA) Annual Symposium},
+      month={1},
+      year={2021}
+    } 
+
+    
+
+    @article{Huang2021a,
+        abbr={Plastic Surgery},
+      title= {Predicting burn surgical candidacy using deep learning on photographic images.},
+      author={S. Huang* and S. Rambhatla* and L. Trinh and M. Zhang and M. Dong and V. Unadkat and J. Lin and M. K. Sheth and J. Dang and H. A. Yenikomshian and Y. Liu and J. Gillenwater},
+      img={burn_cnn.png},
+      journal={Plastic Surgery: The Meeting},
+      month={1},
+      year={2021}
+    } 
+
+     @article{Meng2021a,
+         abbr={KDD},
+      title= {Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling},
+      author={C. Meng and S. Rambhatla and Y. Liu},
+        img={cross-node.png},
+      journal={ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+      abstract={Vast amount of data generated from networks of sensors, wearables, and the Internet of Things (IoT) devices underscores the need for advanced modeling techniques that leverage the spatio-temporal structure of decentralized data due to the need for edge computation and licensing (data access) issues. While federated learning (FL) has emerged as a framework for model training without requiring direct data sharing and exchange, effectively modeling the complex spatio-temporal dependencies to improve forecasting capabilities still remains an open problem. On the other hand, state-of-the-art spatio-temporal forecasting models assume unfettered access to the data, neglecting constraints on data sharing. To bridge this gap, we propose a federated spatio-temporal model – Cross-Node Federated Graph Neural Network (CNFGNN) – which explicitly encodes the underlying graph structure using graph neural network (GNN)-based architecture under the constraint of cross-node federated learning, which requires that data in a network of nodes is generated locally on each node and remains decentralized. CN-FGNN operates by disentangling the temporal dynamics modeling on devices and spatial dynamics on the server, utilizing alternating optimization to reduce the communication cost, facilitating computations on the edge devices. Experiments on the traffic flow forecasting task show that CNFGNN achieves the best forecasting performance in both transductive and inductive learning settings with no extra computation cost on edge devices, while incurring modest communication cost.},
+        month={1},
+      year={2021}
+    } 
+
+     @article{Hung2021a,
+         abbr={AUA},
+      title= {Automating suturing skills assessment with a limited surgeon dataset: Meta learning},
+      author={A. J. Hung and S. Rambhatla and D. I. Sanford and N. Pachauri and J. H. Nguyen and Y. Liu},
+        img={RAS.gif},
+      journal={American Urology Association},
+        award={Podium Talk},
+        month={1},
+      year={2021}
+    } 
+    
+       @article{seo2021physics,
+        abbr={IJCAI}, 
+        title={Physics-aware Spatiotemporal Modules with Auxiliary Tasks for Meta-Learning},
+        author={S. Seo and C. Meng and S. Rambhatla and Y. Liu},
+        journal={International Joint Conferences on Artificial Intelligence (IJCAI)},
+        url={https://arxiv.org/abs/2006.08831},
+        pdf={https://arxiv.org/pdf/2006.08831.pdf},
+        arxiv={2006.08831},
+        abstract={Modeling the dynamics of real-world physical systems is critical for spatiotemporal prediction tasks, but challenging when data is limited. The scarcity of real-world data and the difficulty in reproducing the data distribution hinder directly applying meta-learning techniques. Although the knowledge of governing partial differential equations (PDEs) of the data can be helpful for the fast adaptation to few observations, it is difficult to generalize to different or unknown dynamics. In this paper, we propose a framework, physics-aware modular meta-learning with auxiliary tasks (PiMetaL) whose spatial modules incorporate PDE-independent knowledge and temporal modules are rapidly adaptable to the limited data, respectively. The framework does not require the exact form of governing equations to model the observed spatiotemporal data. Furthermore, it mitigates the need for a large number of real-world tasks for meta-learning by leveraging simulated data. We apply the proposed framework to both synthetic and real-world spatiotemporal prediction tasks and demonstrate its superior performance with limited observations. },
+         img={PiMetal_zoom.png},
+         month={1},
+        year={2021}
+      }
+    
+
+    @article{Xu2021a,
+      abbr={ICLR Workshop}, 
+      title= {Simulating continuous-time human mobility trajectories.},
+      img={DeltaGAN.png},
+      abstract={Recent pandemic events have greatly emphasized the need to understand how hu-mans navigate in modern day cities for both urban planning and recommendingeffective public health policy.  In this paper, we propose a two-stage generativemodel,DeltaGAN, to simulate realistic human mobility trajectories.  Comparedwith existing work where time was discretized,DeltaGANgenerates continuousvisitation time which better captures temporal irregularity in human mobility be-haviors.  Conditioned on the generated time,DeltaGANproduces accurate loca-tions via limiting the range of realizable candidates. Experimental results demon-strate our model achieves competitive distributional similarity to real-world GPStrajectories across 6 individual trajectory and geographical metrics.  We furthervalidateDeltaGAN’s utility on COVID-19 spread simulation and observe the dif-fusion process under generated trajectories is consistent with that under real data.},
+      author={N. Xu* and L. Trinh* and S. Rambhatla and S. Assefa and J. Chen and Z. Zeng and Y. Liu},
+      journal={Deep Learning for Simulation Workshop, International Conference on Learning Representations (ICLR)},
+      month={1},
+      year={2021}
+    } 
+
+  @article{kamra2020pred,
+      abbr={JHIR},
+      title= {{PolSIRD}: Modeling Epidemic Spread under Intervention Policies and an Application to the Spread of COVID-19},
+      author={N. Kamra and Y. Zhang and S. Rambhatla and C. Meng and Y. Liu},
+      img={polsird.png},
+      arxiv={2009.01894},
+      url={https://arxiv.org/abs/2009.01894},
+      pdf={https://arxiv.org/pdf/2009.01894.pdf},
+      abstract={Epidemic spread in a population is traditionally modeled via compartmentalized models which represent the free evolution of disease in absence of any intervention policies. In addition, these models assume full observability and do not account for under-reporting of cases. We present a mathematical model, namely PolSIRD, which accounts for the under-reporting by introducing an observation mechanism. It also captures the effects of intervention policies on the disease spread parameters by leveraging intervention policy data along with the reported disease cases. Furthermore, we allow our recurrent model to learn the initial hidden state of all compartments end-to-end along with other parameters via gradient-based training. We apply our model to spread of the recent global outbreak of COVID-19 where our model outperforms the current methods employed by the CDC in most of the metrics. We also provide actionable guidance on the lifting of intervention policies via counterfactual simulations from our model.},
+      journal={Journal of Healthcare Informatics Research},
+      month={1},
+      year={2021}
+    }
+   
+
+
+    
+ @article{trinh2020interpretable,
+     abbr={WACV},
+    title={Interpretable and Trustworthy Deepfake Detection via Dynamic Prototypes},
+    author={L. Trinh and M. Tsang and S. Rambhatla and Y. Liu},
+    journal={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    pdf={https://openaccess.thecvf.com/content/WACV2021/papers/Trinh_Interpretable_and_Trustworthy_Deepfake_Detection_via_Dynamic_Prototypes_WACV_2021_paper.pdf},
+    arxiv={2006.15473},
+    url={https://arxiv.org/abs/2006.15473},
+    abstract={In this paper we propose a novel human-centered ap- proach for detecting forgery in face images, using dynamic prototypes as a form of visual explanations. Currently, most state-of-the-art deepfake detections are based on black-box models that process videos frame-by-frame for inference, and few closely examine their temporal inconsistencies. However, the existence of such temporal artifacts within deepfake videos is key in detecting and explaining deep- fakes to a supervising human. To this end, we propose Dynamic Prototype Network (DPNet) – an interpretable and effective solution that utilizes dynamic representations (i.e., prototypes) to explain deepfake temporal artifacts. Extensive experimental results show that DPNet achieves competitive predictive performance, even on unseen test- ing datasets such as Google’s DeepFakeDetection, Deep- erForensics, and Celeb-DF, while providing easy referential explanations of deepfake dynamics. On top of DPNet’s pro- totypical framework, we further formulate temporal logic specifications based on these dynamics to check our model’s compliance to desired temporal behaviors, hence providing trustworthiness for such critical detection systems.
+    },
+     img={DPNet_resized.gif},
+     month={1},
+    year={2021}
+  }
+
+      @article{Hung2021b,
+          abbr={Under Review},
+      title= {Automating Robotic Suturing Skills Assessment: Battling Mislabeling \& Label Uncertainty},
+      author={A. J. Hung and S. Rambhatla and D. I. Sanford and N. Pachauri and E. Vanstrum and J. H. Nguyen and Y. Liu},
+      journal={(Under Review)},
+      month={10},
+      img={NoiseRank.png},
+      year={2021}
+    } 
+
+
+
+
+
+
+
+ 
